@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5px;
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Raleway' sans-serif;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;   
+}
+
+.right-section ul{
+    list-style: none;
+    display: flex;
+}
+
+.right-section ul li {
+    margin-right: 25px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#introSection .intro img {
+    margin-left: 400px;
+}
+
+#introSection .intro h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#introSection .intro p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.click-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: hsl(176, 68%, 64%);
+    margin-left: 650px;
+    font-family: 'Raleway' sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+body{
+    font-family: 'Open sans' sans-serif;
+}
+
+#serviceSection .left-section {
+    width: 50%;
+    margin-left: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Open sans' sans-serif;
+}
+
+#serviceSection .right-section {
+    width: 50%;
+    margin-right: 200px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+#serviceSection h2{
+    font-weight: 400, 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.access {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.security {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+#stayProductive .left-product-section {
+    width: 50%;
+    margin-left: 180px;
+    margin-top: 200px;
+}
+
+#stayProductive .right-product-section {
+    width: 30%;
+    margin-right: 140px;
+    color: white;
+    text-align: left;
+    margin-top: 300px;
+}
+
+#stayProductive .right-product-section h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#stayProductive .right-product-section p {
+    margin-bottom: 15px;
+}
+
+#stayProductive .right-product-section a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
+.flex-box {
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 180px;
+    width: 400px;
+    text-align: left;
+    background-color: hsl(219, 30%, 18%);
+    margin-right: 20px;
+    color: white;
+}
+
+#testimonialSection h4 {
+    padding-bottom: 8px;
+}
+
+#testimonialSection .flexing {
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+#testimonialSection .flex-box img{
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
+}
+
+#testimonialSection .flex-box .founder {
+    padding-left: 15px;
+}
+
+footer {
+    width: 1580px;
+    background-color: hsl(216, 53%, 9%);
+    overflow-x: hidden;
+    color: white;
+}
+
+.logo-1 {
+    padding: 200px 0 15px 80px;
+}
+
+.flex-space {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+footer .flex-space p {
+    padding-bottom: 15px;
+}
+
+.flex-space img {
+    width: 20px;
+    height: 20px;
+    padding-right: 1%;
+}
+
+footer .logo-1 img {
+    padding-bottom: 20px;
+}
+
+#signUp {
+    display: inline;
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#signUp .sign-up h2 {
+    padding-bottom: 15px;
+}
+
+#signUp input[type="email"] {
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 500px;
+    height: 40px;
+    margin-top: 15px;
+    width: 350px;
+}
+
+.click {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: hsl(176, 68%, 64%);
+    font-family: 'Raleway' sans-serif;
+    text-align: center;
+    margin-left: 50px;
+}
+
+@media (max-width : 375px) {
+
+}
